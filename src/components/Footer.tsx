@@ -8,9 +8,9 @@ export default function Footer() {
       <p className="mb-4 text-sm font-light">IPO Deal Hunter © 2026 All Rights Reserved</p>
 
       <div className="flex gap-4 text-xs tracking-wider uppercase mb-8">
-        <a href="#" className="hover:text-accent transition-colors">dealdigger.co</a>
+        <a href="https://dealdigger.co/" className="hover:text-accent transition-colors">dealdigger.co</a>
         <span>|</span>
-        <a href="#" className="hover:text-accent transition-colors">Terms & Conditions</a>
+        <a href="https://thecrwd.co/terms-conditions/" className="hover:text-accent transition-colors">Terms & Conditions</a>
       </div>
 
       <div className="max-w-4xl text-xs space-y-4 text-gray-600 font-light text-justify md:text-center leading-relaxed">
@@ -19,14 +19,6 @@ export default function Footer() {
         <p>IPODealHunter makes no guarantees about your ability to earn returns, find successful deals, or achieve financial outcomes using the ideas, strategies, or tools provided. This content is for educational and informational purposes only and should not be considered investment, legal, financial, or tax advice.</p>
         <p>Any earnings examples or results shared are for illustration purposes only and are not promises of what you can or will achieve. Always do your own due diligence and consult licensed financial or legal professionals before making investment decisions.</p>
         <p>By using this site and accessing our materials, you accept full responsibility for your actions, decisions, and outcomes, and agree not to hold us liable in any way.</p>
-      </div>
-
-      <div className="flex gap-4 text-xs tracking-widest uppercase mt-8 border-t border-white/5 pt-8 w-full justify-center">
-        <a href="#" className="hover:text-accent transition-colors">Legal Notice</a>
-        <span>-</span>
-        <a href="#" className="hover:text-accent transition-colors">Support</a>
-        <span>-</span>
-        <a href="#" className="hover:text-accent transition-colors">Privacy</a>
       </div>
     </footer>
   );
