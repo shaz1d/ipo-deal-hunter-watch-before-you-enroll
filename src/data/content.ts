@@ -6,7 +6,7 @@ export const videosPart1 = [
     videoLabel: "Who is Chris Graebe, and what is Deal Hunters Alliance?",
     thumbnailPlaceholder: "/Images/video-thumb (1).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69a9fe04665b72368784758e.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79ea11179b429c00b3.jpg"
+    posterUrl: "/Images/video-thumb (1).webp"
   },
   {
     title: "Who Should (& Shouldn't) Join DHA",
@@ -15,7 +15,7 @@ export const videosPart1 = [
     videoLabel: "Is this opportunity right for you?",
     thumbnailPlaceholder: "/Images/video-thumb (2).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69aa007efe8d7f211282c5a0.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e792e390d82cd0b0f55.jpg"
+    posterUrl: "/Images/video-thumb (2).webp"
   },
   {
     title: "Capital & Allocation",
@@ -24,7 +24,7 @@ export const videosPart1 = [
     videoLabel: "How much should I actually invest?",
     thumbnailPlaceholder: "/Images/video-thumb (3).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69aa04e0c1e32813d9cbdf91.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e7938875b967ffae8d2.jpg"
+    posterUrl: "/Images/video-thumb (3).webp"
   },
   {
     title: "Time Horizon & Liquidity",
@@ -33,7 +33,7 @@ export const videosPart1 = [
     videoLabel: "How long before I see a return?",
     thumbnailPlaceholder: "/Images/video-thumb (4).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69aa0547fe8d7f5add8373b1.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e796e414577e25dc605.jpg"
+    posterUrl: "/Images/video-thumb (4).webp"
   }
 ];
 
@@ -45,7 +45,7 @@ export const videosPart2 = [
     videoLabel: "Complete access to curated startup opportunities",
     thumbnailPlaceholder: "/Images/video-thumb (5).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b99ee944bd95877be0bfd6.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e793197de10e5a896e3.jpg"
+    posterUrl: "/Images/video-thumb (5).webp"
   },
   {
     title: "What Sets DHA Apart",
@@ -54,7 +54,7 @@ export const videosPart2 = [
     videoLabel: "The only service with skin in the game",
     thumbnailPlaceholder: "/Images/video-thumb (6).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a5b708e9f24f4e2f360a.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79a235ae2cfeabd78d.jpg"
+    posterUrl: "/Images/video-thumb (6).webp"
   },
   {
     title: "Zero Conflicts of Interest",
@@ -63,7 +63,7 @@ export const videosPart2 = [
     videoLabel: "Ethical transparency and aligned incentives",
     thumbnailPlaceholder: "/Images/video-thumb (7).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a4719c9817e07ac9cfaa.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79200c7e268eeafb25.jpg"
+    posterUrl: "/Images/video-thumb (7).webp"
   },
   {
     title: "Real Deal Wins",
@@ -72,7 +72,7 @@ export const videosPart2 = [
     videoLabel: "Success stories from real members",
     thumbnailPlaceholder: "/Images/video-thumb (8).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a11308e9f203852e6238.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e793204ccef343237f0.jpg"
+    posterUrl: "/Images/video-thumb (8).webp"
   },
   {
     title: "When Deals Don't Work Out",
@@ -81,7 +81,7 @@ export const videosPart2 = [
     videoLabel: "Learning from investment failures",
     thumbnailPlaceholder: "/Images/video-thumb (9).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a20b81a84899440ebae7.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e7904704e65708ebba7.jpg"
+    posterUrl: "/Images/video-thumb (9).webp"
   },
   {
     title: "Risk Management Strategy",
@@ -90,7 +90,7 @@ export const videosPart2 = [
     videoLabel: "Calculated risks with a proven framework",
     thumbnailPlaceholder: "/Images/video-thumb (10).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a5169c981766b1c9f368.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79b050620b34490262.jpg"
+    posterUrl: "/Images/video-thumb (10).webp"
   },
   {
     title: "How Investing Works",
@@ -99,7 +99,7 @@ export const videosPart2 = [
     videoLabel: "Simple step-by-step investment process",
     thumbnailPlaceholder: "/Images/video-thumb (11).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a3029ab5e239106175d3.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79a235ae830cabd78b.jpg"
+    posterUrl: "/Images/video-thumb (11).webp"
   },
   {
     title: "IRA, LLC & Trust Options",
@@ -108,7 +108,7 @@ export const videosPart2 = [
     videoLabel: "Flexible investment account options",
     thumbnailPlaceholder: "/Images/video-thumb (12).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a0489c98177196c925e9.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e796e41452a8f5dc604.jpg"
+    posterUrl: "/Images/video-thumb (12).webp"
   },
   {
     title: "Tax Implications & Planning",
@@ -117,7 +117,7 @@ export const videosPart2 = [
     videoLabel: "Navigate tax planning with professional guidance",
     thumbnailPlaceholder: "/Images/video-thumb (13).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a613ad0276311755e427.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e7931ffeb06b0dfcb85.jpg"
+    posterUrl: "/Images/video-thumb (13).webp"
   },
   {
     title: "If a Deal Fails: Your Downside",
@@ -126,7 +126,7 @@ export const videosPart2 = [
     videoLabel: "Tax write-off softens the blow",
     thumbnailPlaceholder: "/Images/video-thumb (14).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a656f9a79392b5619861.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e790c63d5bbea3593e8.jpg"
+    posterUrl: "/Images/video-thumb (14).webp"
   },
   {
     title: "Membership Cost & Value",
@@ -135,7 +135,7 @@ export const videosPart2 = [
     videoLabel: "Premium value at $2,750 annually",
     thumbnailPlaceholder: "/Images/video-thumb (15).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a4cb61cba5a81991d1c1.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e79a235ae6dc3abd78c.jpg"
+    posterUrl: "/Images/video-thumb (15).webp"
   },
   {
     title: "Ready to Join DHA?",
@@ -144,7 +144,7 @@ export const videosPart2 = [
     videoLabel: "One decision to start your journey",
     thumbnailPlaceholder: "/Images/video-thumb (16).webp",
     videoUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69b9a3a944bd95673ee17ba6.mp4",
-    posterUrl: "https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c69e7acb7f344dc15bb72d.jpg"
+    posterUrl: "/Images/video-thumb (16).webp"
   }
 ];
 
