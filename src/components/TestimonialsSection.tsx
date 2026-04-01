@@ -1,8 +1,19 @@
 "use client";
+import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { testimonials } from "@/data/content";
 
 export default function TestimonialsSection() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+    setTimeout(() => {
+      videoRef.current?.play();
+    }, 100);
+  };
+
   return (
     <section className="relative w-full py-16 md:py-24 lg:py-32 overflow-hidden bg-navy-900 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col items-center">
@@ -12,7 +23,7 @@ export default function TestimonialsSection() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-16 md:mb-24 lg:mb-32 max-w-3xl"
+          className="text-center mb-10 md:mb-14 lg:mb-16 max-w-3xl"
         >
           <p className="text-accent text-sm font-bold uppercase tracking-[0.3em] mb-6 flex items-center justify-center gap-4">
             <span className="w-12 h-[1px] bg-accent/50"></span>
@@ -34,15 +45,41 @@ export default function TestimonialsSection() {
             transition={{ duration: 0.8 }}
             className="relative shadow-[0_30px_60px_rgba(0,0,0,0.8)] border border-white/10 rounded-[2rem] overflow-hidden group bg-black w-full max-w-md mx-auto aspect-[9/16]"
           >
-            <video
-              suppressHydrationWarning
-              controls
-              preload="none"
-              playsInline
-              poster="https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69caa5ab4049c5739d64f1bb.png"
-              src="https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c3fa6e586426210cdab742.mp4"
-              className="w-full h-full object-cover outline-none"
-            />
+            {isPlaying ? (
+              <video
+                ref={videoRef}
+                suppressHydrationWarning
+                controls
+                playsInline
+                preload="none"
+                poster="/Images/testimonial-thumb.webp"
+                src="https://assets.cdn.filesafe.space/0lNvmVkEurcw6PesXYvk/media/69c3fa6e586426210cdab742.mp4"
+                className="w-full h-full object-cover outline-none"
+              />
+            ) : (
+              <>
+                <img
+                  src="/Images/testimonial-thumb.webp"
+                  alt="Member Success Story"
+                  className="w-full h-full object-cover opacity-70 transition-all duration-700 group-hover:scale-105 group-hover:opacity-90"
+                />
+
+                {/* Floating Pulsing Play Button */}
+                <div
+                  className="absolute inset-0 flex items-center justify-center cursor-pointer"
+                  onClick={handlePlay}
+                >
+                  <div className="relative">
+                    <div className="absolute inset-0 rounded-full bg-accent/30 animate-ping" />
+                    <div className="absolute -inset-5 rounded-full border border-accent/20 animate-pulse" />
+
+                    <div className="w-24 h-24 rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center transform group-hover:scale-110 group-hover:bg-accent transition-all duration-300 shadow-2xl">
+                      <svg className="text-white group-hover:text-navy-900 w-10 h-10 transition-colors duration-300 fill-current" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="M8 5v14l11-7z" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
           </motion.div>
 
           {/* Ambient Backlight */}

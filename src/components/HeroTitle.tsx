@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 export default function HeroTitle() {
   return (
-    <section className="relative w-full flex flex-col justify-center items-center text-center px-4 overflow-hidden pt-20 pb-8">
+    <section className="relative w-full flex flex-col justify-center items-center text-center px-4 overflow-hidden pt-20">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
         className="w-full max-w-7xl relative z-10 flex flex-col items-center"
       >
-        <p className="text-sm md:text-lg lg:text-xl font-light tracking-[0.2em] uppercase text-gray-400 mb-8 md:mb-12 flex flex-col md:flex-row items-center gap-4 text-center">
+        <p className="text-sm md:text-lg lg:text-xl font-light tracking-[0.2em] uppercase text-gray-400 mb-8 flex flex-col md:flex-row items-center gap-4 text-center">
           <span className="hidden md:block w-8 lg:w-16 h-[1px] bg-gray-500"></span>
           Before You Join Deal Hunters Alliance
           <span className="hidden md:block w-8 lg:w-16 h-[1px] bg-gray-500"></span>

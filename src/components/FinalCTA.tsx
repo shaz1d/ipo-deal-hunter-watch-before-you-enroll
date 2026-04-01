@@ -27,6 +27,17 @@ export default function FinalCTA() {
           </p>
         </motion.div>
 
+        {/* "Our PEOPLE" Statement */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="text-xl md:text-2xl text-white font-light mb-4 max-w-2xl mx-auto leading-relaxed"
+        >
+          Our <span className="text-accent font-black italic">PEOPLE</span> are what makes Deal Hunters Alliance so special.
+        </motion.p>
+
         {/* Final Premium Image Block */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -42,21 +53,45 @@ export default function FinalCTA() {
           />
         </motion.div>
 
+        {/* "Pay close attention" */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="text-lg md:text-xl text-gray-400 font-light italic mb-12 max-w-2xl mx-auto"
+        >
+          Pay close attention to what you are seeing above.
+        </motion.p>
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.4 }}
+          className="flex flex-col items-center"
         >
-          <p className="text-gray-300 font-light text-lg mb-8 max-w-2xl mx-auto">
-            You have everything inside of you that you need to be successful in pre-IPO startup investing. We are excited to go on this journey with you. And even more than that, we are excited to welcome you into our DHA family.
+          <p className="text-gray-300 font-light text-lg mb-4 max-w-2xl mx-auto leading-relaxed">
+            Your next investment partner, your next breakthrough...
           </p>
 
-          <p className="text-accent font-black text-2xl md:text-3xl italic uppercase tracking-[0.2em] relative inline-block py-4">
+          <p className="text-gray-300 font-light text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+            And perhaps your big financial turning point is inside Deal Hunters Alliance waiting for you.
+          </p>
+
+          <p className="text-accent font-black text-2xl md:text-3xl italic uppercase tracking-[0.2em] relative inline-block py-4 mb-4">
             See you on the inside.
             <br />
             I saved a seat at the table for you.
           </p>
+
+          {/* Chris Graebe Signature */}
+          <img
+            src="/Images/graebe-signature.png"
+            alt="Chris Graebe Signature"
+            className="w-48 md:w-64 opacity-80"
+            style={{ filter: "invert(1)" }}
+          />
         </motion.div>
       </div>
     </section>
