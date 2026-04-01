@@ -78,7 +78,7 @@ export default function ChrisBioSection() {
               <p className="text-xs uppercase tracking-widest text-accent mt-1">Founder, Deal Hunters Alliance</p>
             </div>
             <div className="w-48 h-16 relative">
-              <img src="/Images/graebe-signature-white.png" alt="Chris Graebe Signature" className="w-full h-full object-contain filter invert opacity-90" />
+              <img src="/Images/graebe-signature.png" alt="Chris Graebe Signature" className="w-full h-full object-contain filter invert opacity-90" />
             </div>
           </div>
         </motion.div>
